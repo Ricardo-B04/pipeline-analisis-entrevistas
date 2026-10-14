@@ -1,0 +1,45 @@
+# Datos de entrevistas, resultados y respaldos locales
+data/
+input/
+inputs/
+output/
+outputs/
+*.txt
+!requirements.txt
+*.srt
+*.vtt
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.db
+*.db-*
+*.checkpoint.json
+*.tmp
+*.bak
+
+# Audio de entrada
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.ogg
+
+# Credenciales y configuración privada
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+
+# Python y archivos del sistema
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
